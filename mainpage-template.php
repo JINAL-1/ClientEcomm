@@ -138,6 +138,7 @@ get_header();
       wp_reset_postdata();
     else:
     endif;
+    ?>
   </main>
 <?php
   get_footer();

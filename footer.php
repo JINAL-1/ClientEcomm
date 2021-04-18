@@ -11,6 +11,10 @@
 <div><?php dynamic_sidebar('footer_area_two') ?></div>
 <div><?php dynamic_sidebar('footer_area_three') ?></div>
 <div><?php dynamic_sidebar('footer_area_four') ?></div>
+
+<article class="custom-foot">
+Created by Jinal Parekh &copy; 2020
+</article>
 </footer>
 		
 	
