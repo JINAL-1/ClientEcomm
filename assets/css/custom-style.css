@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+   padding: 5px;
+    margin: 5px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.posted-on{
+    color:blue;
+}
+
+.post-t1{
+    background-color: rgb(196, 160, 236);
+}
+
+#col>img
+{
+    width:200px;
+    height:350px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  #col{
+    flex: 50%;
+    padding: 5px;
+  }
+
+/** Centered Nav **/
+
+.menu{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(210, 127, 231);
+        text-align:center;
+}
+
+
+.menu li{
+    display: inline;
+}
+
+
+
+.menu > li a  {
+  display: inline-block;
+  color: rgb(128, 0, 100);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu > li a:hover {
+  background-color: rgb(133, 119, 119);
+}
+
+.menu > li a:active {
+    color: rgb(224, 118, 118);
+  }
+
+  nav{
+      padding: 25px;
+  }
